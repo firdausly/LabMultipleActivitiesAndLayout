@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridLayout Calculator"
+        android:textSize="36sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+
+        tools:context=".gridlayout">
+
+        <TextView
+            android:id="@+id/integer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/operation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/integer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="36sp" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp" />
+
+    <CheckBox
+        android:id="@+id/setinteger1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set integer 1" />
+
+    <CheckBox
+        android:id="@+id/setinteger2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set integer 2" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <GridLayout
+            android:id="@+id/numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:columnCount="3"
+            tools:context=".gridlayout">
+
+            <Button
+                android:id="@+id/no1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/no2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/no3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/no4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/no5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/no6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/no7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/no8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/no9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/blankgrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/blank2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:columnCount="2">
+
+            <Button
+                android:id="@+id/operationplus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/operationminus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/operationmultiply"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="x" />
+
+            <Button
+                android:id="@+id/operationdivide"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="÷" />
+
+            <Button
+                android:id="@+id/blankgrid3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/equal"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/blankgrid2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/blankgrid4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLR" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

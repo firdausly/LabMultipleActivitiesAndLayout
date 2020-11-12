@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LabMultipleActivitiesAndLayout</string>
+    <string name="Home_Menu">Home Menu</string>
+    <string name="usinglinearlayout">using Linear Layout</string>
+    <string name="relativelayout">RELATIVE LAYOUT</string>
+    <string name="relativelayoutdesc">Relative Layout utilizes the relationship with each other and parents
+    to define the view position</string>
+    <string name="constraintlayout">CONSTRAINT LAYOUT</string>
+    <string name="constraintlayoutdesc">Constraint Layout needs at least ONE horizontal and ONE vertical constraints to
+    define the views within it.</string>
+    <string name="gridlayout">GRID LAYOUT</string>
+    <string name="gridlayoutdesc">Grid Layout arranges the views in distributed rows and columns manner.</string>
+
+
+</resources>

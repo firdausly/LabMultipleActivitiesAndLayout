@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relativelayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textviewbuttonrelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D8A1A1"
+            android:gravity="center"
+            android:text="This is Relative Layout Page"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="246dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enter your name" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputname"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonrelative"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:rotationX="6"
+                android:text="BACK TO HOME" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
